@@ -1,4 +1,4 @@
-import img from "../../assets";
+import img from "../../assets/img.jpeg";
 
 import { Button } from '../../components/button';
 import { Card } from "../../components/card";
@@ -12,9 +12,8 @@ const Home = () => {
         <div>
     
           <Button label="Clique"></Button>
-          <Button label="Clique ici"></Button>
-    
-          <Avatar.Small background={img}/>
+
+          <Avatar.Cover background={img}/>
     
           <Card label="le titre" icon={img} iconPosition="right" background={img}/>
           <Counter/>

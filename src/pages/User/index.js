@@ -1,12 +1,12 @@
 import { Button } from '../../components/button';
 
-const Panier = () => {
+const User = () => {
     return (
         <div>
-            <p>Panier</p>
+            <p>User</p>
             <Button label="Clique"></Button>
             <Button label="Clique ici"></Button>
         </div>
       );
 };
-export default Panier;
+export default User;
